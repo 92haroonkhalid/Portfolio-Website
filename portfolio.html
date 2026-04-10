@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View my portfolio of web development and design projects">
+    <link rel="icon" type="image/x-icon" href="img/2.png">
+    <title>Haroon Khalid | My Work</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav aria-label="Main navigation">
+                <label class="hamburger" aria-label="Toggle menu">
+                    <input type="checkbox" aria-expanded="false">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="hobby.html">Hobby</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <a href="index.html" aria-label="Home">Haroon Khalid</a>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="portfolio-hero">
+        <div class="container">
+            <div class="section-header">
+                <h1>My Portfolio</h1>
+                <div class="separator"></div>
+                <p>Browse through some of my recent projects</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="website">Web Design</button>
+                <button class="filter-btn" data-filter="meta">Meta Ads</button>
+                <button class="filter-btn" data-filter="videoediting">Video Editing</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="website">
+                    <img src="img/4.png" alt="Portfolio Website">
+                        <div class="portfolio-overlay">
+                            <h3>Portfolio Website</h3>
+                            <p>Web Design, Development</p>
+                        <a href="#" class="btn btn-sm" data-project="project1">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="meta">
+                    <img src="img/5.png" alt="Meta Ads Compaign">
+                        <div class="portfolio-overlay">
+                            <h3>Meta Ads Compaign</h3>
+                            <p>Performance Over View</p>
+                        <a href="#" class="btn btn-sm" data-project="project2">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="videoediting">
+                    <img src="img/6.png" alt="Video Editing">
+                        <div class="portfolio-overlay">
+                            <h3>Video Editing</h3>
+                            <p>Editing for a client</p>
+                        <a href="#" class="btn btn-sm" data-project="project3">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="website">
+                    <img src="img/7.png" alt="Working on a project">
+                    <div class="portfolio-overlay">
+                        <h3>Working on a web project</h3>
+                        <p>Behind the scene view</p>
+                        <a href="#" class="btn btn-sm" data-project="project4">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="meta">
+                    <img src="img/8.png" alt="Meta Ads Compaign">
+                        <div class="portfolio-overlay">
+                            <h3>Meta Ads Compaign</h3>
+                            <p>Age Demographics</p>
+                        <a href="#" class="btn btn-sm" data-project="project5">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="videoediting">
+                    <img src="img/9.png" alt="Video Editing">
+                        <div class="portfolio-overlay">
+                            <h3>Video Editing</h3>
+                            <p>Personal Project</p>
+                        <a href="#" class="btn btn-sm" data-project="project6">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div class="project-modal" id="project1">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Portfolio Website</h2>
+                <div class="project-images">
+                    <img src="img/4.png" alt="Portfolio Website">
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <h3>Project Information</h3>
+                        <ul>
+                            <li><strong>Client:</strong> Personal Project</li>
+                            <li><strong>Category:</strong> Portfolio Website</li>
+                            <li><strong>Role:</strong> Full Stack Developer</li>
+                            <li><strong>Tools:</strong> HTML, CSS, JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="project-description">
+                        <h3>Project Overview</h3>
+                        <p>A modern and responsive portfolio website showcasing my work and skills. The site features a clean, minimalist design with smooth animations and transitions.</p>
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Responsive design for all devices</li>
+                            <li>Dark/Light mode toggle</li>
+                            <li>Interactive portfolio grid</li>
+                            <li>Smooth animations and transitions</li>
+                            <li>Contact form with validation</li>
+                        </ul>
+                        <h3>Technical Details</h3>
+                        <p>The project was built using modern web technologies and best practices, including:</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Font Awesome</li>
+                        </ul>
+                        <a href="https://92haroonkhalid.site" class="btn btn-primary">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-modal" id="project2">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Meta Ads Campaign</h2>
+                <div class="project-images">
+                    <img src="img/5.png" alt="Meta Ads Campaign">
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <h3>Project Information</h3>
+                        <ul>
+                            <li><strong>Client:</strong> Islami Scholar</li>
+                            <li><strong>Category:</strong> Traffic</li>
+                            <li><strong>Platform:</strong> Meta Ads</li>
+                            <li><strong>Role:</strong> Ran Campaign & Managed</li>
+                        </ul>
+                    </div>
+                    <div class="project-description">
+                        <h3>Campaign Overview</h3>
+                        <p>Managed and optimized Meta Ads campaigns for an someone's personal, focusing on increasing brand awareness and driving traffic.</p>
+                        <h3>Key Achievements</h3>
+                        <ul>
+                            <li>Increased ROAS by 150%</li>
+                            <li>Reduced cost per acquisition by 30%</li>
+                            <li>Expanded audience reach by 200%</li>
+                            <li>Improved ad engagement rates</li>
+                        </ul>
+                        <h3>Strategy & Implementation</h3>
+                        <p>The campaign utilized advanced targeting techniques and A/B testing to optimize performance:</p>
+                        <ul>
+                            <li>Custom audience segmentation</li>
+                            <li>Dynamic creative optimization</li>
+                            <li>Conversion tracking setup</li>
+                            <li>Performance analytics and reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="project-modal" id="project5">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Meta Ads Campaign</h2>
+                <div class="project-images">
+                    <img src="img/8.png" alt="Meta Ads Campaign">
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <h3>Project Information</h3>
+                        <ul>
+                            <li><strong>Client:</strong> An Islami Scholar</li>
+                            <li><strong>Category:</strong> Engage Audience</li>
+                            <li><strong>Platform:</strong> Meta Ads</li>
+                            <li><strong>Role:</strong> Ad Manager</li>
+                        </ul>
+                    </div>
+                    <div class="project-description">
+                        <h3>Campaign Overview</h3>
+                        <p>Managed and optimized Meta Ads campaigns for an e-commerce brand, focusing on increasing brand awareness and driving sales.</p>
+                        <h3>Key Achievements</h3>
+                        <ul>
+                            <li>Increased ROAS by 150%</li>
+                            <li>Reduced cost per acquisition by 30%</li>
+                            <li>Expanded audience reach by 200%</li>
+                            <li>Improved ad engagement rates</li>
+                        </ul>
+                        <h3>Strategy & Implementation</h3>
+                        <p>The campaign utilized advanced targeting techniques and A/B testing to optimize performance:</p>
+                        <ul>
+                            <li>Custom audience segmentation</li>
+                            <li>Dynamic creative optimization</li>
+                            <li>Conversion tracking setup</li>
+                            <li>Performance analytics and reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-modal" id="project3">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Video Editing Project</h2>
+                <div class="project-images">
+                    <img src="img/6.png" alt="Video Editing">
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <h3>Project Information</h3>
+                        <ul>
+                            <li><strong>Client:</strong> Shop Owner</li>
+                            <li><strong>Category:</strong> Video Production</li>
+                            <li><strong>Tools:</strong> Adobe Premiere Pro</li>
+                            <li><strong>Role:</strong> Video Editor</li>
+                        </ul>
+                    </div>
+                    <div class="project-description">
+                        <h3>Project Overview</h3>
+                        <p>Created engaging video content for a shop owner, focusing on storytelling and visual appeal to engage audience.</p>
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Dynamic transitions</li>
+                            <li>Motion graphics</li>
+                            <li>Audio enhancement</li>
+                            <li>Voice Over</li>
+                        </ul>
+                        <h3>Technical Details</h3>
+                        <p>The project involved comprehensive video editing and post-production:</p>
+                        <ul>
+                            <li>4K video editing</li>
+                            <li>Sound design and mixing</li>
+                            <li>Color correction and grading</li>
+                            <li>Voice Over</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-modal" id="project6">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Personal Project</h2>
+                <div class="project-images">
+                    <img src="img/9.png" alt="Video Editing">
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <h3>Project Information</h3>
+                        <ul>
+                            <li><strong>Client:</strong> Personal Project</li>
+                            <li><strong>Category:</strong> Video Production</li>
+                            <li><strong>Tools:</strong> Adobe Premiere Pro</li>
+                            <li><strong>Role:</strong> Video Editor & Producer</li>
+                        </ul>
+                    </div>
+                    <div class="project-description">
+                        <h3>Project Overview</h3>
+                        <p>Created engaging video content for my self, focusing on storytelling and visual appeal to engage audience.</p>
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Dynamic Transitions</li>
+                            <li>Motion Graphics</li>
+                            <li>Audio Enhancement</li>
+                        </ul>
+                        <h3>Technical Details</h3>
+                        <p>The project involved comprehensive video editing and post-production:</p>
+                        <ul>
+                            <li>4K video editing</li>
+                            <li>Sound design and mixing</li>
+                            <li>Color correction and grading</li>
+                            <li>Voice Over</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-modal" id="project4">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Web Development Project</h2>
+                <div class="project-images">
+                    <img src="img/7.png" alt="Web Development">
+                </div>
+                <div class="project-details">
+                    <div class="project-info">
+                        <h3>Project Information</h3>
+                        <ul>
+                            <li><strong>Client:</strong> Self Project</li>
+                            <li><strong>Category:</strong> Web Development</li>
+                            <li><strong>Role:</strong> Full Stack Developer</li>
+                            <li><strong>Tech:</strong> HTML, CSS, JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="project-description">
+                        <h3>Project Overview</h3>
+                        <p>Developed a full-stack web application for a self project, implementing modern features and best practices.</p>
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Responsive Design</li>
+                            <li>Smooth Animations</li>
+                            <li>Smooth Transitions</li>
+                            <li>Contact Form</li>
+                        </ul>
+                        <h3>Technical Implementation</h3>
+                        <p>The project utilized a modern tech stack and development practices:</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" aria-label="Home">Haroon Khalid</a>
+                </div>
+                <ul class="footer-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="hobby.html">Hobby</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary footer-contact-btn">Contact Me</a>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/92haroon_khalid/" class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/92haroonkhalid" class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/haroon-khalid-a0166a275" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=923455052261" class="social-link" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:muhammadharoonkhalid786@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Haroon Khalid. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+    <script src="js/mobile-nav.js" defer></script>
+    <script src="js/theme.js" defer></script>
+</body>
+</html>
