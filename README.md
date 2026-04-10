@@ -6,6 +6,11 @@ A professional portfolio website showcasing projects, services, and personal inf
 
 This is a personal portfolio website built with HTML, CSS, and JavaScript. It serves as a comprehensive showcase of skills, projects, and services.
 
+## 🔗 Deployment
+
+You can check this site from the url below:
+https://92haroonkhalid.github.io/Portfolio-Website/
+
 ## 📁 Project Structure
 
 ```
@@ -104,6 +109,6 @@ This project is open source and available under no specific license. Feel free t
 
 Feel free to fork this project and customize it for your own use!
 
-## Author 
+# 👨‍💻 Author 
 
 **Haroon Khalid**
