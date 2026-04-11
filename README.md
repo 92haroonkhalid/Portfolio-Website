@@ -104,7 +104,7 @@ For inquiries or questions, use the contact form on the `contact.html` page.
 
 ## 📄 License
 
-This project is open source and available under MIT license. Feel free to use and modify it for your own portfolio.
+This project is open source and available under MIT license.
 
 ## 🤝 Contributing
 
