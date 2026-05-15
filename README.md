@@ -10,7 +10,7 @@ This is a personal portfolio website built with HTML, CSS, and JavaScript. It se
 
 You can check this site from the url below:
 
-https://92haroonkhalid.github.io/Portfolio-Website/
+https://HaronKhalid.github.io/Portfolio-Website/
 
 ## 📁 Project Structure
 
