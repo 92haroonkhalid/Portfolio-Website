@@ -52,7 +52,7 @@ Portfolio-Website/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/92haroonkhalid/Portfolio-Website.git
+git clone https://github.com/HaronKhalid/Portfolio-Website.git
 ```
 
 2. Navigate to the project directory:
