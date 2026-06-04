@@ -35,12 +35,12 @@ Portfolio-Website/
 - **Multiple Pages** - Organized sections including:
   - Home page with introduction
   - About section
-  - Project portfolio showcase
+  - Project portfolio showcase (Software & AI, Cyber Security, Web Dev, Digital Media)
   - Services offered
   - Personal hobbies section
   - Contact/inquiry form
 - **Interactive Navigation** - Menu-driven navigation system
-- **Professional Layout** - Clean and modern design
+- **Premium Layout** - Clean and modern design featuring glassmorphism, micro-animations, and an enhanced OLED-style dark mode.
 
 ## 🚀 Getting Started
 

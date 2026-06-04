@@ -306,19 +306,19 @@ section {
 
 /* Dark Mode Optimization */
 body.dark-mode {
-  --primary-color: #60a5fa;
-  --primary-dark: #3b82f6;
-  --primary-light: #93c5fd;
-  --secondary-color: #1e293b;
+  --primary-color: #3b82f6;
+  --primary-dark: #2563eb;
+  --primary-light: #60a5fa;
+  --secondary-color: #0f172a;
   --text-color: #f8fafc;
-  --text-light: #cbd5e1;
-  --text-lighter: #94a3b8;
-  --background: #0f172a;
-  --background-alt: #1e293b;
-  --background-gradient: linear-gradient(135deg, var(--background-alt) 0%, var(--background) 100%);
-  --border-color: #334155;
+  --text-light: #94a3b8;
+  --text-lighter: #64748b;
+  --background: #020617;
+  --background-alt: #0f172a;
+  --background-gradient: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+  --border-color: rgba(255, 255, 255, 0.05);
   --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  --box-shadow-hover: 0 8px 15px rgba(0, 0, 0, 0.4);
+  --box-shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 /* Responsive Optimizations */
@@ -601,9 +601,17 @@ section {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: var(--background);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: var(--box-shadow);
   transition: var(--transition);
+}
+
+body.dark-mode #header {
+  background: rgba(2, 6, 23, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 #header .container {
@@ -1040,10 +1048,16 @@ nav {
   box-shadow: var(--box-shadow);
   opacity: 1;
   transform: scale(1);
-  transition: opacity 0.3s, transform 0.3s;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   pointer-events: auto;
-  background: var(--background);
-  border: 1px solid var(--border-color);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.portfolio-item:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: var(--box-shadow-hover);
 }
 
 .portfolio-item.hidden {
@@ -1109,13 +1123,14 @@ nav {
 }
 
 .service-card {
-  background-color: var(--background);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
   border-radius: var(--border-radius);
   padding: 2rem;
   text-align: center;
   box-shadow: var(--box-shadow);
-  transition: var(--transition);
-  border: 1px solid var(--border-color);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .service-card:hover {
